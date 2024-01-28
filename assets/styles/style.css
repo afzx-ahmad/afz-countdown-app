@@ -1,3 +1,78 @@
-* {
+@font-face {
+  font-family: "Kanit-Italic";
+  src: url("../fonts/Kanit-Italic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kanit-Bold";
+  src: url("../fonts/Kanit-Bold.ttf");
+  font-display: swap;
+}
+
+:root {
+  --primary-color: #6bcaff;
+  --secondary-color: #ffffff;
+  --black-color: #000000;
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/background.png");
+  font-family: "Kanit-Bold";
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.59);
+  min-height: inherit;
+  display: flow-root;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 115px;
+  text-align: center;
+  font-family: "Kanit-Bold";
+  font-size: 107.69px;
+}
+
+.container-countdown {
+  margin-inline: auto;
+  margin-top: 26.35px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 79px;
+  width: 1008.61px;
+}
+
+.container-time {
+  text-align: center;
+}
+
+.container-time > :first-child {
+  font-size: 102.43px;
+  color: var(--primary-color);
+}
+
+.container-time .desc {
+  color: var(--secondary-color);
+  font-size: 55px;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-style: italic;
 }
