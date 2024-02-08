@@ -25,5 +25,5 @@ Ini adalah aplikasi berbasis website yang berfungsi untuk menghitung waktu mundu
 - Menginisialisasi git [✅]
 - Membuat Design [✅]\
   Design: https://www.figma.com/file/zWkjI2jphjpbK16E5vdEjK/afz-countdown-app?type=design&node-id=0%3A1&mode=design&t=NmVqyrUdUkCzbV77-1
-- Mengimplementasikan Design []
-- Membuat Script Countdwown []
+- Mengimplementasikan Design [✅]
+- Membuat Script Countdwown [✅]
